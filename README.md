@@ -1,2 +1,7 @@
-# mju-git.github.io
-Portfolio github page
+## Projects
+
+---
+
+### Classification
+
+[Music Genre Classification](https://github.com/mju-git/Music-Genre-Classification)
