@@ -1,19 +1,19 @@
-## Projects
+# Projects
 
-### Classification
+## Classification
 
 [Music Genre Classification](https://github.com/mju-git/Music-Genre-Classification)
 
 
-### Regression
+## Regression
 
 
 
-### Text analysis
+## Text analysis
 
 
 
 
-### Recommender system
+## Recommender system
 
 
