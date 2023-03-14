@@ -7,13 +7,13 @@
 
 ### Regression
 
----
+
 
 ### Text analysis
 
 
----
 
-### Deep learning
 
----
+### Recommender system
+
+
