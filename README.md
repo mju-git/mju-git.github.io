@@ -1,19 +1,32 @@
-# Projects
+## Projects
 
-## Classification
+
+
+### Recommender system
+
+[Movies Recommender System](https://github.com/mju-git/movie-recommender)
+
+
+
+### Classification
 
 [Music Genre Classification](https://github.com/mju-git/Music-Genre-Classification)
 
-
-## Regression
-
-
-
-## Text analysis
+[Digit Recognition](https://github.com/mju-git/MNIST)
 
 
 
+### Regression
 
-## Recommender system
+[House price prediction](https://github.com/mju-git/housing-prices)
+
+
+
+### Text analysis
+
+[Telegram chat analysis](https://github.com/mju-git/chat-analysis)
+
+
+
 
 
