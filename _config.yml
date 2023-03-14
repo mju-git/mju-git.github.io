@@ -1,6 +1,8 @@
-#title: Maja Jurcan
+title: Maja Jurcan
 description: Data Science Portfolio
 show_downloads: false
 
 
 theme: jekyll-theme-tactile
+plugins:
+- jekyll-remote-theme
