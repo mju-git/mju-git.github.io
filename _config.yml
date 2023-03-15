@@ -1,8 +1,10 @@
-title: &ensp;Maja Jurcan
+title: MAJA JURCAN
 logo: "/images/logo.png?raw=true"
 description: >
-  Meticulous and motivated computer engineer possessing good technical skills rooted in substantial training and education. Looking to use 800 hours of training at a Data Analytics and Machine Learning bootcamp to implement machine learning and data-driven solutions at your organization.
-#show_downloads: false
+  Meticulous and motivated computer engineer possessing good technical skills rooted in substantial training and education.
+  <br>
+  Looking to use 800 hours of training at a Data Analytics and Machine Learning bootcamp to implement machine learning and data-driven solutions at your organization.
+  <br>
 
 
 theme: jekyll-theme-minimal
