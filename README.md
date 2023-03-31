@@ -1,6 +1,5 @@
 # PORTFOLIO
 
-<br><br>
 
 ## Recommender system
 
