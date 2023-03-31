@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-
+<br><br>
 
 ## Recommender system
 
@@ -12,7 +12,7 @@ Using TF-IDF on curated movie metadata.
 
 <img src="./images/recommender.png"  alt="recommender">
 
-
+<br><br>
 
 ## Classification
 
@@ -29,7 +29,7 @@ Classification of the hand 70000 hand written digits. Achieved 97% accuracy with
 
 <img src="./images/digits.png"  alt="digits">
 
-
+<br><br>
 
 ## Regression
 
@@ -39,7 +39,7 @@ Building a regression model from a dataset of house prices in state of Californi
 
 <img src="./images/california_housing.png"  alt="california_housing">
 
-
+<br><br>
 
 ## Text analysis
 
