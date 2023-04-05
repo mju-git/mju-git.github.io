@@ -1,5 +1,6 @@
-# PORTFOLIO
+<h1 align="center"> PORTFOLIO </h1>
 
+<br><br>
 
 ## Recommender system
 
