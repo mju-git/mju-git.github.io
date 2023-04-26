@@ -11,7 +11,7 @@
 Data scrapping from the IMDb and The Movie Database API. 
 Using TF-IDF on curated movie metadata.
 
-[App Link](https://movie-recommender-system.streamlit.app/)
+[Try It Out](https://movie-recommender-system.streamlit.app/)
 </p>
 
 <img src="./images/recommender_light.png"  alt="recommender">
