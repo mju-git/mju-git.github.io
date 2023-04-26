@@ -9,7 +9,10 @@
 
 <p style="text-align:justify">Content based movie recommender system as a Streamlit app. 
 Data scrapping from the IMDb and The Movie Database API. 
-Using TF-IDF on curated movie metadata.</p>
+Using TF-IDF on curated movie metadata.
+
+[App Link](https://movie-recommender-system.streamlit.app/)
+</p>
 
 <img src="./images/recommender_light.png"  alt="recommender">
 
