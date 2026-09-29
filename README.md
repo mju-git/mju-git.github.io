@@ -18,7 +18,7 @@ The contact section uses [Web3Forms](https://web3forms.com) (no extra hosting):
 
 1. Create a free access key at web3forms.com
 2. Set `web3forms_access_key` in `_config.yml`
-3. Optionally set `email` and `linkedin_url` in `_config.yml`
+3. Optionally set `email` in `_config.yml`
 
 ## Featured projects
 
