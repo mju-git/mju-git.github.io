@@ -1,0 +1,26 @@
+title: MAJA JURCAN
+description: >-
+  Data Science & Machine Learning — building end-to-end projects from data pipelines
+  to interactive apps.
+url: "https://mju-git.github.io"
+# If this repo is published as a project site (username.github.io/repo), set baseurl to "/repo-name".
+# For the user site repo mju-git.github.io, leave baseurl empty.
+baseurl: ""
+
+author: Maja Jurcan
+github_username: mju-git
+github_url: "https://github.com/mju-git"
+# Optional: set your LinkedIn profile URL
+linkedin_url: ""
+# Optional: public email shown next to the form (mailto fallback)
+email: ""
+
+# Web3Forms access key from https://web3forms.com (free). Paste the key here to enable the contact form.
+web3forms_access_key: ""
+
+theme: jekyll-theme-minimal
+# Leave blank to disable analytics (dummy UA ID removed)
+# google_analytics:
+
+plugins:
+  - jekyll-seo-tag

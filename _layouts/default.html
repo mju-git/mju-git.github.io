@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+  </head>
+  <body class="portfolio-body">
+    <div class="site-shell">
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <ul class="nav-links">
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </nav>
+
+      {{ content }}
+
+      <footer class="site-footer">
+        <p>Hosted on GitHub Pages · {{ site.title }}</p>
+      </footer>
+    </div>
+
+    {% if site.web3forms_access_key and site.web3forms_access_key != "" %}
+    <script>
+      (function () {
+        var form = document.getElementById("contact-form");
+        if (!form) return;
+        var status = document.getElementById("form-status");
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+          status.textContent = "Sending…";
+          status.className = "form-status";
+          var data = new FormData(form);
+          fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: data,
+            headers: { Accept: "application/json" }
+          })
+            .then(function (res) { return res.json(); })
+            .then(function (json) {
+              if (json.success) {
+                status.textContent = "Thanks — your message was sent.";
+                status.className = "form-status ok";
+                form.reset();
+              } else {
+                status.textContent = json.message || "Something went wrong. Please try again.";
+                status.className = "form-status err";
+              }
+            })
+            .catch(function () {
+              status.textContent = "Network error. Please try again or email me directly.";
+              status.className = "form-status err";
+            });
+        });
+      })();
+    </script>
+    {% endif %}
+  </body>
+</html>
