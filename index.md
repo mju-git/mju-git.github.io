@@ -197,7 +197,7 @@ title: Portfolio
   </div>
   <div class="contact-panel">
     <div class="contact-meta">
-      <p>Prefer email or LinkedIn? Use the links below — the form also works without extra hosting via Web3Forms.</p>
+      <p>Prefer email? Use the link below.</p>
       <div class="contact-links">
         <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">GitHub — @{{ site.github_username }}</a>
         {% if site.linkedin_url and site.linkedin_url != "" %}
