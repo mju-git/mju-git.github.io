@@ -11,12 +11,12 @@ author: Maja Jurcan
 github_username: mju-git
 github_url: "https://github.com/mju-git"
 # Optional: set your LinkedIn profile URL
-linkedin_url: ""
+#linkedin_url: ""
 # Optional: public email shown next to the form (mailto fallback)
-email: ""
+email: "maja.jurcan@gmail.com"
 
 # Web3Forms access key from https://web3forms.com (free). Paste the key here to enable the contact form.
-web3forms_access_key: ""
+web3forms_access_key: "50faf5b4-4f9b-445b-a024-5a7b91a21803"
 
 theme: jekyll-theme-minimal
 # Leave blank to disable analytics (dummy UA ID removed)
