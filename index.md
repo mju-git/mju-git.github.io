@@ -7,9 +7,7 @@ title: Portfolio
   <p class="hero-eyebrow">Data Science &amp; Machine Learning</p>
   <h1>{{ site.title }}</h1>
   <p class="hero-lead">
-    Meticulous and motivated computer scientist with strong technical skills from substantial training and education.
-    Bringing 800+ hours of practical experience from a Data Analytics and Machine Learning bootcamp to data-driven solutions.
-    Team-oriented with clear written and verbal communication.
+    Meticulous Computer Science graduate and Data/AI Specialist with practical experience evaluating, ranking, and stress-testing LLM-generated outputs. Proven track record in RLHF annotation, multi-step web-agent evaluation (browser tool-use), and prompt engineering. Brings a technical foundation in Python and SQL to AI training projects, focusing on rubric alignment, fact-checking, safety, and search accuracy against project guidelines.
   </p>
   <div class="hero-actions">
     <a class="btn btn-primary" href="#featured">See featured work</a>
